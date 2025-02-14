@@ -1,0 +1,7 @@
+.card-img-top {
+    width: 100%;  /* Hace que todas las imágenes ocupen el ancho completo de la tarjeta */
+    height: 200px; /* Ajusta la altura fija para todas las imágenes */
+    object-fit: cover; /* Recorta y ajusta la imagen sin deformarla */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}

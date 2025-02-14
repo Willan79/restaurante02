@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Carrito extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'user_id',
+    ];
+
+    // Relación con el usuario (un carrito pertenece a un usuario)
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    // Relación con los items del carrito (un carrito tiene muchos items)
+    public function items()
+    {
+        return $this->hasMany(CarritoItem::class);
+    }
+}
