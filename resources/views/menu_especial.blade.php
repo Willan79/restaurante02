@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Categoría Especial
+    Menú especial
 @endsection
 
 @section('contenido')

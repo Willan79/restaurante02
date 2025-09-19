@@ -1,11 +1,9 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Categoría Ejecutivo
+    Menú ejecutivo
 @endsection
 
 @section('contenido')
-
     @include('layouts.menu_categorias')
-
 @endsection

@@ -5,3 +5,27 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+
+.header-app{
+    background-color: green;
+}
+
+.nav-item a{
+    font-size: larger;
+    text-decoration: none;
+    color: darkgray;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+ color: white;
+}
+
+
+.navbar-nav{
+    gap: 1rem;
+}
+
+footer{
+    background: rgb(1, 68, 1);
+}

@@ -3,10 +3,11 @@
 @section('contenido')
     <div class="container d-flex justify-content-center">
 
-        <div class="card p-4 shadow-lg col-md-12 col-lg-6">
-            <h2 class="text-center"><i class="bi bi-duffle fs-2 me-2"></i></h2>
-            <h2 class="text-center mb-4">Registro</h2>
-
+        <div class="card p-2 shadow-lg col-md-12 col-lg-6">
+            <div class="d-flex justify-content-center mb-2">
+                <img src="{{ asset('img/Mi-logo.png') }}" class="img-fluid " alt="Logo" style="max-height: 50px;">
+                <h2 class="text-center">Registro</h2>
+            </div>
             <form action="{{ route('register') }}" method="POST">
                 @csrf <!-- Token de seguridad -->
 

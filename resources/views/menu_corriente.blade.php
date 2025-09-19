@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Categoría Corriente
+    Menú corriente
 @endsection
 
 @section('contenido')

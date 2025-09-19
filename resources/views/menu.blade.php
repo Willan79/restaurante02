@@ -2,14 +2,14 @@
 
 @section('contenido')
 
-    <h2 class="text-center text-dark fw-bold position-relative">Categorías</h2>
+    <h2 class="text-center text-success fw-bold position-relative">Categorías</h2>
 
     <div class="container py-2">
         <div class="row justify-content-center">
 
             <!-- Primer elemento -->
             <div class="col-md-4">
-                <div class="card shadow-sm mb-2">
+                <div class="card shadow-lg mb-2">
                     <img class="card-img-top " src="{{ asset('img/Corriente.jpeg') }}" alt="Corriente">
                     <div class="card-body text-center">
                         <a href="{{ route('menu_corriente') }}" class="btn btn-outline-primary fw-bold text-width">
@@ -22,7 +22,7 @@
 
             <!-- Segundo elemento -->
             <div class="col-md-4">
-                <div class="card shadow-sm mb-2">
+                <div class="card shadow-lg mb-2">
                     <img class="card-img-top" src="{{ asset('img/Ejecutivo.jpg') }}" alt="Ejecutivo">
                     <div class="card-body text-center">
                         <a href="{{ route('menu_ejecutivo') }}" class="btn btn-outline-primary fw-bold text-width">
@@ -35,7 +35,7 @@
 
             <!-- Tercer elemento -->
             <div class="col-md-4">
-                <div class="card shadow-sm">
+                <div class="card shadow-lg">
                     <img class="card-img-top" src="{{ asset('img/Especial.jpeg') }}" alt="Especial">
                     <div class="card-body text-center">
                         <a href="{{ route('menu_especial') }}" class="btn btn-outline-primary fw-bold text-width">

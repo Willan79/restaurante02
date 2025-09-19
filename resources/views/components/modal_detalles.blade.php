@@ -2,7 +2,7 @@
 <!-- Modal para mostrar los detalles de un plato -->
 <div class="modal fade" id="modalInfo" tabindex="-1" aria-labelledby="modalInfoLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg modal-lg"> <!-- Modal centrado y de tamaño grande en pantallas grandes -->
-        <div class="modal-content p-3 bg-info"> <!-- Contenedor del contenido del modal con padding -->
+        <div class="modal-content p-3 bg-"> <!-- Contenedor del contenido del modal con padding -->
             <div class="modal-header">
                 <h5 class="modal-title d-flex justify-content-right align-items-start" id="modalInfoLabel">Detalles del Plato</h5>
                 <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Cerrar"></button> <!-- Botón para cerrar el modal -->
